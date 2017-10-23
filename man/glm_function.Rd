@@ -36,7 +36,7 @@ How can we interpret the output? The coefficients are on the linked scale - so a
   }
       
 \examples{
-## model = glm_function(my.data$Y, cbind(my.data$X1, my.data$X2), my.data, c(z0, z1, ..., zk))
+## model = glm_function(my.data$Y, cbind(my.data$X1, my.data$X2), c(z0, z1, ..., zk), my.data)
 ## model
 }
 
