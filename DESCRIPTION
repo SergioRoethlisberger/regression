@@ -1,0 +1,12 @@
+Package: regression
+Type: Package
+Title: Predicted Values and Discrete Changes for GLM
+Version: 0.1
+Date: 2017-10-20
+Author: Catherine Ammann & Sergio Röthlisberger [aut,cre]
+Maintainer: Catherine Ammann <catherine.ammann@uzh.ch> & Sergio Röthlisberger <sergio.roethlisberger@uzh.ch>
+Description: A technique for determining the statistical relationship between two or more variables where a change in a dependent variable is associated with, and depends on, a change in one or more independent variables.
+License: GPL (>=2)
+Depends:
+    R (>= 3.1.0),
+    stats
